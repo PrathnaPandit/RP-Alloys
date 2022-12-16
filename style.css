@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css?family=ITC Avant Garde Gothic Std');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Tahoma', sans-serif;
+  }
+
+  body{
+    background-color: white;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #navbar{
+   width: 100%;
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 50px;
+  }
+
+  .navbar-menu{
+    cursor: pointer;
+  }
+
+  .navbar-side{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    transition: 3s;
+  }
+
+  .banner-main {
+    background-image: url("Group\ 297.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    min-height: 690px;
+    /* padding: 60px; */
+    margin: 0 50px;
+}
+
+ .banner-title {
+position: absolute;
+width: 842px;
+height: 250px;
+left: 112px;
+top: 120px;
+font-weight: 600;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+#summary {
+    padding: 100px 10%;
+  }
+
+.subtitle{
+    color:#ec2232;
+    font-size: 16px;
+    font-weight: 500;
+ }
+
+ .title{
+    font-weight: 500;
+    font-size: 3rem;
+ }
+
+ .details{
+  width: 100%;
+  font-size: 18px;
+  color: #192437;
+ }
+
+ .details p{
+ text-align: left;
+ width:50%;
+ margin-left: auto;
+ }
+
+ .count{
+    margin-top: 60px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+ }
+
+ .count-main{
+    display:flex;
+    flex-direction: column;
+ }
+ 
+ .count-main>div{
+    display: flex;
+    align-items: center;
+ }
+
+ .count-num{
+    font-weight: 700;
+    font-size: 4rem;
+ }
+
+ .icon {
+  color: #ec2232;
+  font-size: 3rem;
+ }
+
+ .divider{
+    height: 100px;
+    width: 2px;
+    background-color: #CDCDCD;
+ }
+
+ #customer-choice{
+    background-color: #F7F7F7;
+    position: relative;
+    padding: 100px 10%;
+ }
+
+ .png-wing-2{
+    display: block;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+ }
+
+ .png-wing-3{
+    display: block;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.service-card-container{
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  margin-top: 100px;
+  margin-bottom:-250px;
+  margin-right: -120px;
+}
+
+.main-industry{
+position: absolute;
+width: 1160px;
+height: 850px;
+left: 80px;
+top: 2545px;
+
+}
+
+.side-image{
+ float: right;
+ margin-top: 340px;
+}
+
+#industry-numbers{
+    margin-top: 1400px;
+    background-image: url("Group\ 324.png");
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    background-size: 100% 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    padding: 100px;
+}
+
+.industry-details {
+    margin-top: 2rem;
+}
+
+.industry-overview {
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3.5rem;
+}
+.industry-main{
+    padding: 140px;
+     position: relative; 
+     top:108px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .85rem;
+}
+
+.main h2 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.main h4 {
+    font-weight: 400;
+}
+
+.ellipse{
+position: absolute;
+width: 156px;
+height: 145px;
+left: 1054px;
+border-radius: 50%;
+opacity: 0.2;
+border: 1px solid #000000;
+overflow: hidden;
+}
+
+.rectangle{
+position: absolute;
+width: 154px;
+height: 180px;
+left: 1210px;
+opacity: 0.2;
+border: 1px solid #000000;
+overflow: hidden;
+}
+
+#companies{
+ padding: 100px 10%;
+}
+
+#companies .subtitle{
+ justify-content: center;
+ text-align: center;
+}
+
+.companies-image{
+    width: 1000px;
+    margin-left: 100px;
+}
+
+
+.get-in-touch {
+    margin-left: 40px;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.contact-form {
+    background-image: url("Rectangle\ 489.png");
+    width: 100%;
+    padding: 51px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+
+.input-container {
+    margin-left: 40px;
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.input-container input,
+.message-container textarea {
+    
+    width: 35%;
+    font-size: 18px;
+    border-radius: 5px;
+    height:45px;
+    /* color: #192437; */
+    border: none;
+}
+
+.message-container {
+    margin-left: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.submit {
+    margin-left: 40px;
+    padding: 1rem 3rem;
+    border-radius: 4rem;
+    font-size: 20px;
+    background-color: #ec2232;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover {
+    transform: scale(.95);
+    filter: saturate(2);
+}
+
+.map{
+background-image: url("Rectangle\ 491.png");
+position: absolute;
+width: 800px;
+height: 645px;
+left: 720px;
+top: 4965px;
+}
+
+.map-image{
+    width:720px;
+    height:610px; 
+    left:-80px; 
+    position:relative; 
+    top:20px;
+}
+
+#footer {
+    width: 100%;
+    background-color: #181818;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10%;
+}
+
+.footer-route h2,
+.footer-industry h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.footer-divider {
+    width: 0.5px;
+    height: 100px;
+    background-color: #CDCDCD;
+}
+
+.footer-social,
+.footer-industry>div {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-social a {
+    display: inline-block;
+}
+
+/* Tablet Tablet Responsive */
+@media only screen and (max-width: 1200px) {
+    .service-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: -220px;
+        margin-right: -70px;
+    }
+}
+
+
+/* Mobile Responsive */
+@media only screen and (max-width: 700px) {
+
+    /* Basic */
+    html {
+        width:1042px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    /* Navbar */
+    #navbar {
+        padding: 10px 4px;
+
+    }
+
+    /* Banner Section */
+    #banner {
+        padding: 20px;
+        margin: 0 10px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    /* Summary Section */
+    .details p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    /* Customer Section */
+    .service-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+    .service-card-one{
+        width:300px;
+    }
+
+    .main-industry{
+        margin-top:2157px;
+        height: 845px;
+        width: 700px;
+        margin-left: 39px;
+    }
+    /* Industry Info Section */
+
+    .industry-overview {
+        margin-left:-131px;
+    }
+
+    .industry-details {
+        margin-left:-131px;
+    }
+
+    #industry-numbers .title{
+        margin-left:-131px;
+    }
+
+    #industry-numbers .subtitle{
+        margin-left:-131px;
+    }
+
+    .ellipse, .rectangle{
+        display:none;
+    }
+    .side-image{
+        display:none;
+    }
+
+    /* companies */
+
+    .companies-image{
+        width: 896px;
+        margin-left: -66px;
+    }
+
+    #companies .subtitle{
+        margin-left: -45px;
+        font-size: 35px;
+    }
+    /* Contact Section */
+    #contact {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        padding: 4rem .75rem;
+        /* align-items: center; */
+    }
+
+    .input-container input, .message-container textarea {
+        width:75%;
+    }
+    .submit{
+        margin-left: 94px;
+    }
+
+    .map{
+        margin-top: 3603px;
+        margin-left: -474px;
+        background-image: none;
+    }
+    .map-image{
+        height:956px;
+        width:896px;
+        margin-left: -107px;
+        margin-top: -639px;
+    }
+
+    /* Footer Section */
+    .footer-industry,
+    .footer-copyright {
+        margin: 0 auto;
+        margin-left: 30px ;
+        margin-bottom:30px;
+    }
+    .footer-route h2{
+        margin-left:20px;
+    }
+
+    /* .footer-divider {
+        left:10px;
+    } */
+     footer{
+        margin-top: 1055px;
+    }
+}
